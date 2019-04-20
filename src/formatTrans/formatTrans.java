@@ -62,11 +62,11 @@ public class formatTrans
 			if (object instanceof Resource) 
 			{
 				String[] obj=object.toString().split("#");
-				System.out.print("  ¡¾±öÓï¡¿ " + obj[obj.length-1]);
+				System.out.print("  ¡¾±öÓï¡¿[resource] " + obj[obj.length-1]);
 			}
 			else {// object is a literal
 				String[] obj=object.toString().split("E");
-				System.out.print("  ¡¾±öÓï¡¿ \"" + obj[0] + "\"");
+				System.out.print("  ¡¾±öÓï¡¿[literal] " + obj[0] );
 			}
 			System.out.println(""); 
 			
