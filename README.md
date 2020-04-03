@@ -7,5 +7,6 @@
   3. 几种格式之间互相转换（性能不太好
   4. 各种格式导出csv，并且自动去掉前后缀
   5. csv转nt
+    6. 执行sparql
  * 部分功能从Koral项目提取，原作者是 Daniel Janke &lt;danijankATuni-koblenz.de&gt;
  * 代码结构不太好...主要是自己用 能跑就行hhhh
